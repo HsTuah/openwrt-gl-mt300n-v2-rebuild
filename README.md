@@ -14,7 +14,7 @@ Build firmware on **your Docker environment.**
 ```bash
 mkdir Build_Path_Some_Where
 cd Build_Path_Some_Where
-git clone https://github.com/nxhack/openwrt-gl-mt300n-v2-build.git
+git clone https://github.com/nxhack/openwrt-gl-mt300n-v2-rebuild.git
 cd openwrt-gl-mt300n-v2-build
 docker build -t gl:1 .
 docker run -it gl:1
